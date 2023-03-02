@@ -21,7 +21,7 @@ const About = () => {
           <p className="text-2xl lg:text-3xl font-bold tracking-wide lg:text-left text-center py-3 lg:pb-5 text-dark-blue">
             ~ About ~
           </p>
-          <div className="flex lg:hidden border-4 mx-auto items-center justify-center border-t-pink-300 border-b-pink-400 border-r-blue-600 border-l-blue-400 bg-pink-100  rounded-2xl w-fit lg:h-[26.5rem] lg:w-[26.5rem]">
+          <div className="flex lg:hidden border-4 mx-auto items-center justify-center border-t-pink-300 border-b-pink-400 border-r-blue-600 border-l-blue-400 bg-pink-100  rounded-full w-fit lg:h-[26.5rem] lg:w-[26.5rem]">
             <img
               src={ownerImage}
               alt=""
