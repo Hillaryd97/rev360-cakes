@@ -1,5 +1,5 @@
 import React from "react";
-import ownerImage from "./assets/owner2.jpg";
+import ownerImage from "./assets/IMG_6708_Original.jpg";
 
 const About = () => {
   return (
@@ -21,7 +21,7 @@ const About = () => {
           <p className="text-2xl lg:text-3xl font-bold tracking-wide lg:text-left text-center py-3 lg:pb-5 text-dark-blue">
             ~ About ~
           </p>
-          <div className="flex lg:hidden border-4 mx-auto items-center justify-center border-t-pink-300 border-b-pink-400 border-r-blue-600 border-l-blue-400 bg-pink-100  rounded-2xl w-fit lg:h-[26.5rem] lg:w-[26.5rem]">
+          <div className="flex lg:hidden border-4 mx-auto items-center justify-center border-t-pink-300 border-b-pink-400 border-r-blue-600 border-l-blue-400 bg-pink-100  rounded-full w-fit lg:h-[26.5rem] lg:w-[26.5rem]">
             <img
               src={ownerImage}
               alt=""
@@ -29,17 +29,11 @@ const About = () => {
             />
           </div>
           <h3 className="text-lg text-pink-600 font-bold text-center lg:text-left py-2 lg:text-xl ">
-            Meet the baker behind the cakes
+          Discover the Love and Care behind Every Cake at Rev 3:20 Cakes.
           </h3>
          
-          <p className="text-lg text-justify leading-8 pb-2 w-fit">
-            Welcome to Rev 3:20 Cakes, where every cake is handmade with love
-            and passion by me, Dami. I specialize in creating delicious and
-            unique cakes for all of your special occasions. Using only the
-            freshest ingredients, I work closely with my customers to bring
-            their vision to life and make their dream cake a reality. Thank you
-            for considering me, I can't wait to make your special moment
-            sweeter.
+          <p className="text-lg leading-8 pb-2 w-fit">
+          Welcome to Rev 3:20 Cakes, where every cake is handmade with love and passion. Our specialty is creating delicious and unique cakes for all of your special occasions. Using only the freshest ingredients, we work closely with our customers to bring their vision to life and make their dream cake a reality. Thank you for considering us, we can't wait to make your special moment sweeter.
           </p>
           <a
             href="mailto:hillaryd97@gmail.com"
